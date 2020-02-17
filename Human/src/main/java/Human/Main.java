@@ -35,6 +35,19 @@ public class Main {
             System.out.println("1: nincs nev");;
         }
         
+        boolean empty2 = (second.getName() == null);
+        
+        System.out.println(empty2 == true ? "2ures" : "2Nem ures");
+        
+        boolean empty1 = (first.getName() == null);
+        
+        System.out.println(empty1 == true ? "1ures" : "1Nem ures");
+        
+//        if (second.getName() == null){
+//            System.out.println("2: nincs nev");
+//        }else{
+//            System.out.println("2: Van név" + second.getName());;
+//        }
         
     }
     
