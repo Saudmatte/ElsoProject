@@ -1,7 +1,8 @@
 package Human;
 
 public class Human {
-    private String name = "Gyula";
+    private String name;
+    private int age;
     
     public void writeMyName(){
         System.out.println("My name is " + this.name);
@@ -11,8 +12,17 @@ public class Human {
         return this.name;
     }
     
-    public void setName(String incoming){
-        this.name = incoming;    
+    public void setName(String name){
+        this.name = name;    
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+    
     
 }

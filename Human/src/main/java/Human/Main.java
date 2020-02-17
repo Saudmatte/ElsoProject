@@ -7,10 +7,35 @@ public class Main {
         Human second = new Human();
 
         first.setName("Jani");
+        first.setAge(15);
             
         System.out.println(first.getName());
-        System.out.println(second.getName());    
+          
         first.writeMyName();
+        
+        System.out.println(second.getName());  
+        
+        System.out.println(first.getAge());
+        
+        System.out.println(second.getAge());  
+
+        String firstName = first.getName();
+        String secondName = second.getName();
+       
+        
+        if (secondName == null){
+            System.out.println("2: nincs nev");
+        }else{
+            System.out.println("2: Van név" + second.getName());;
+        }
+        
+        if (firstName != null){
+            System.out.println("1: Van nev: " + first.getName());
+        }else{
+            System.out.println("1: nincs nev");;
+        }
+        
+        
     }
     
 }
