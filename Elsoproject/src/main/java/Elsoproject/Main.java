@@ -8,7 +8,10 @@ public class Main {
 
     }
     static String censor(String text, String toChange, String newWord){
-        text = text.replaceAll(toChange, newWord);
+        if(text.contains(toChange)){
+            text = text.replaceAll(toChange, newWord);
+
+        }
         return text;
     }
 }
