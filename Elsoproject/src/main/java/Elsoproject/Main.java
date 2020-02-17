@@ -3,10 +3,12 @@ package Elsoproject;
 public class Main {
 
     public static void main(String[] args) {
-        censor();
+        String result = censor("A kutya nagyon aranyos kutya","kutya","macska");
+        System.out.println("Proba" + result);
+
     }
-    static String censor(){
-        System.out.println("Próba!");
-        return null;
+    static String censor(String text, String toChange, String newWord){
+        String toReturn = text;
+        return toReturn;
     }
 }
