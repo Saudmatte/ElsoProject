@@ -23,6 +23,9 @@ public class Main {
         String secondName = second.getName();
        
         
+        //if logikai kapuval oldom meg kiiratást hogy minden
+        //eshetõséget lekezeljek
+        
         if (secondName == null){
             System.out.println("2: nincs nev");
         }else{
@@ -35,6 +38,9 @@ public class Main {
             System.out.println("1: nincs nev");;
         }
         
+        
+        //if helyett ternális operátor
+        
         boolean empty2 = (second.getName() == null);
         
         System.out.println(empty2 == true ? "2ures" : "2Nem ures");
@@ -42,6 +48,12 @@ public class Main {
         boolean empty1 = (first.getName() == null);
         
         System.out.println(empty1 == true ? "1ures" : "1Nem ures");
+        
+        //ternális operátornál külön változó helyett az adott  
+        //lekérést vizsgálom azonnal és null-al kérdezem le true helyett
+        
+        System.out.println(first.getName() == null ? "1ures" : "1Nem ures");
+        System.out.println(second.getName() == null ? "2ures" : "2Nem ures");
         
 //        if (second.getName() == null){
 //            System.out.println("2: nincs nev");
