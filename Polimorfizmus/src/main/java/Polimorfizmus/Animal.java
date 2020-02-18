@@ -1,7 +1,11 @@
 package Polimorfizmus;
 
 public class Animal {
-   
+    
+    protected void makeSound(){
+        System.out.println("AAAAaaaaaaaaa");
+    }
+    
     private String name;
     private int weight;
 

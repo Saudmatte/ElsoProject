@@ -1,8 +1,9 @@
 package Polimorfizmus;
 
-public class Cat extends Animal {
+public class Cat extends Feline {
     /** nyávogni fog */
-    public void meow(){
+    @Override
+    public void makeSound(){
         System.out.println("meow");
     }
     
