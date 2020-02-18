@@ -1,14 +1,14 @@
 package Polimorfizmus;
 
 public abstract class Animal {
+    private String name;
+    private int weight;
+    
     
     protected void makeSound(){
         System.out.println("AAAAaaaaaaaaa");
     }
     
-    private String name;
-    private int weight;
-
     public String getName() {
         return name;
     }
