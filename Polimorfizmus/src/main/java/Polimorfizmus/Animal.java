@@ -1,6 +1,6 @@
 package Polimorfizmus;
 
-public class Animal {
+public abstract class Animal {
     
     protected void makeSound(){
         System.out.println("AAAAaaaaaaaaa");

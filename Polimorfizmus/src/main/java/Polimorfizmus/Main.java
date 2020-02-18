@@ -8,6 +8,8 @@ public class Main {
         //macska.meow();
         System.out.println(macska.equals(macska2));
         macska.makeSound();
-    }
+        
+         
+   }
     
 }
