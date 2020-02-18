@@ -26,20 +26,37 @@ public class Main {
         int b = x; ez igen mert kisebbõl nagyobba töltöm
         */
         
-        
         /*
         System.out.println(1+1 + " a " + 1+1);  -->  2 a 11
         */
         
-        /*
+        
         char first = 'a';
         int second = 2;
         String third = "" + first;
-        String third = "" + second;
-        */
-    
+        String fouth = "" + second;
+        String simple;
+        
+        double d = 3.5;   //ez nem mûködik így
+        
+        String a = "a";
+        
+        simple = String.valueOf(d);
+        
+        System.out.println(simple);
+        
+        Character c = 'c';
+        
+        test(second);
+        
+        int asd = 1;
+        int sdf = asd;    //lemásolja asd értékét
+        
+        
         
         
    }
-    
+    public static void test (Integer c){
+            System.out.println(c);
+        }
 }
