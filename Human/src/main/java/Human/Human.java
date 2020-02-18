@@ -1,9 +1,13 @@
 package Human;
 
 public class Human {
+    //az ember neve
     private String name;
+    //az ember kora
     private int age;
     
+    
+    //ez a metódus kiírja az ember nevét
     public void writeMyName(){
         System.out.println("My name is " + this.name);
     }

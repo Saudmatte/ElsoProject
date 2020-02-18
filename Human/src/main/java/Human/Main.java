@@ -21,7 +21,7 @@ public class Main {
 
         String firstName = first.getName();
         String secondName = second.getName();
-       
+        
         
         //if logikai kapuval oldom meg kiiratást hogy minden
         //eshetõséget lekezeljek
@@ -37,6 +37,8 @@ public class Main {
         }else{
             System.out.println("1: nincs nev");;
         }
+        
+        
         
         
         //if helyett ternális operátor
