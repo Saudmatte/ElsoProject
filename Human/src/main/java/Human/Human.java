@@ -7,7 +7,7 @@ public class Human {
     private int age;
     
     
-    //ez a metódus kiírja az ember nevét
+    /** ez a metódus kiírja az ember nevét */
     public void writeMyName(){
         System.out.println("My name is " + this.name);
     }
