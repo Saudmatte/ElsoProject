@@ -64,7 +64,11 @@ public class Main {
             Cat sziamiau = new Cat("Sziamiau");
             cats.add(sziamiau);
             
+            if (!cats.isEmpty())
             System.out.println(cats.get(0).getName());
+            
+            Cat macska = (Cat) cats.get(0);
+            
         }
     
     public static void test (Integer c){
