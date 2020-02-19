@@ -1,21 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Array;
 
-/**
- *
- * @author Dávid
- */
+import java.util.ArrayList;
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+    
+        String[] simpleArray = new String[2];
+        
+        simpleArray[0] = "alma";
+        simpleArray[1] = "körte";
+        
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("alma");
+        list.add("körte");
+        
     }
     
 }
