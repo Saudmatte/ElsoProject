@@ -1,6 +1,12 @@
 package Polimorfizmus;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 
 public class Main {
 //    
@@ -84,7 +90,21 @@ public class Main {
             }            
             
             System.out.println(sziamiau.toString());
+        
+            Dog dog = new Dog(5);
+    
+            File file = new File("E://file.txt");
+            
+        try {
+            FileReader fr = new FileReader(file);
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }finally{
+            
         }
+            
+            
+    }
     
     public static void test (Integer c){
             System.out.println(c);
