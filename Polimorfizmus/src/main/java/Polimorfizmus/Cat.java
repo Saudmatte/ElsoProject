@@ -42,5 +42,11 @@ public class Cat extends Animal implements Pet {
     @Override
     public void layDown() {
     }
-  
+    
+    
+    @Override
+    public String toString(){
+        return this.getName();
+    }
+    
 }

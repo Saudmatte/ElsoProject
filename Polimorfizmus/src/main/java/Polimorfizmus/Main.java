@@ -64,11 +64,26 @@ public class Main {
             Cat sziamiau = new Cat("Sziamiau");
             cats.add(sziamiau);
             
+            
             if (!cats.isEmpty())
             System.out.println(cats.get(0).getName());
             
             Cat macska = (Cat) cats.get(0);
             
+            
+            Object o1 = new Object();
+            Object o2 = new Object();
+            Object o3 = o1;
+            
+            System.out.println(o1.hashCode() + " " + o2.hashCode() + " " + o3.hashCode());
+            System.out.println(sziamiau.getClass());
+            
+            if (cats.get(0) instanceof Cat){
+                Cat cat = (Cat) cats.get(0);
+                cat.makeSound();
+            }            
+            
+            System.out.println(sziamiau.toString());
         }
     
     public static void test (Integer c){
