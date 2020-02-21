@@ -7,3 +7,5 @@
 /SentenceGenerator/.gradle/
 /SentenceGenerator/build/
 /Array/.gradle/
+/TestFX/build/
+/TestFX/dist/
